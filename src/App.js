@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Location from './components/Location';
+
+import Direction from './components/Direction';
 
 function App() {
   return (
     <div className="App">
-      <Location></Location>
+      
+      <Direction></Direction>
     </div>
   );
 }
